@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stay Awake</string>
+    <string name="hello_world">Click the button in the action bar to control if your device will remain awake.</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
