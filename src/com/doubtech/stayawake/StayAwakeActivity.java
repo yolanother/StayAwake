@@ -19,15 +19,15 @@ public class StayAwakeActivity extends Activity {
         Intent intent = new Intent(this, StayAwakeService.class);
         startService(intent);
         bindService(intent, new ServiceConnection() {
-            
+
             @Override
             public void onServiceDisconnected(ComponentName name) {
-                
+
             }
-            
+
             @Override
             public void onServiceConnected(ComponentName name, IBinder service) {
-                
+
             }
         }, Context.BIND_AUTO_CREATE);
         finish();
